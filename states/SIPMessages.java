@@ -1,0 +1,20 @@
+package states;
+public enum SIPMessages {
+
+    SEND_INVITE,
+    SEND_OK,
+    SEND_ACK,
+    SEND_BYE,
+    SEND_TRO,
+    SEND_BUSY,
+    SEND_UNKOWN_MESSAGE,
+    
+    RECEIVE_INVITE,
+    RECEIVE_OK,
+    RECEIVE_ACK,
+    RECEIVE_BYE,
+    RECEIVE_TRO,
+    RECEIVE_BUSY,
+    RECEIVE_UNKOWN_MESSAGE,
+    RECEIVE_INTERPTION
+}
